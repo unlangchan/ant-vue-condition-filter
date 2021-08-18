@@ -1,9 +1,17 @@
 {
-  "name": "vue-yl-component",
+  "name": "ant-vue-condition-filter",
   "version": "0.1.0",
   "author": "unlangchan",
   "license": "MIT",
-  "main": "dist/vue-yl-component.umd.js",
+  "description": "Condition filter base ant-design-vue",
+  "main": "dist/ant-vue-condition-filter.umd.js",
+  "keywords": [
+    "condition",
+    "filter",
+    "ant-design-vue",
+    "vue",
+    "component"
+  ],
   "scripts": {
     "link-self": "npm link --only=production ./",
     "serve": "vue-cli-service serve ./demo/main.js",

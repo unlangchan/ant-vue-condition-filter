@@ -1,3 +1,3 @@
-import { HelloWorld } from "vue-yl-component";
+import { ConditionFilter } from "ant-vue-condition-filter";
 
-export default [HelloWorld];
+export default [ConditionFilter];
