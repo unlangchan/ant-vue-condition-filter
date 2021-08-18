@@ -1,4 +1,4 @@
-# vue-component
+# ant-vue-condition-filter
 
 This is the component build description
 

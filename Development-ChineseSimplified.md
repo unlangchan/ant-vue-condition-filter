@@ -1,4 +1,4 @@
-# vue-component
+# ant-vue-condition-filter
 
 此为组件构建说明
 
