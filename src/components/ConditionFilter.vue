@@ -14,11 +14,11 @@
           <div
             class="ant-select-selection-selected-value"
             :title="text"
-            v-show="hasValue"
+            v-if="hasValue"
           >
             {{ text }}
           </div>
-          <div class="ant-select-selection__placeholder" v-show="!hasValue">
+          <div class="ant-select-selection__placeholder" v-else>
             {{ placeholder }}
           </div>
         </div>
