@@ -1,0 +1,12 @@
+node_modules
+/src
+.github
+.eslintrc
+.eslintrc.js
+yarn.lock
+package-lock.json
+babel.config.js
+jest.config.js
+vue.config.js
+tests
+
