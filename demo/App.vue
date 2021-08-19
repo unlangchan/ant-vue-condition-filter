@@ -7,8 +7,9 @@
     <condition-filter
       :title="title"
       :options="options"
+      :placeholder="placeholder"
       @change="change"
-      style="width: 220px"
+      style="min-width: 250px; --title-word: 4.1"
     ></condition-filter>
   </div>
 </template>
@@ -20,25 +21,26 @@ export default {
   },
   data() {
     return {
-      title: "条件",
+      title: "Condition",
+      placeholder: "Unlimited",
       options: [
         {
-          title: "性别",
+          title: "Sex",
           value: undefined,
           key: "sex",
           options: [
-            { title: "男", value: "男" },
-            { title: "女", value: "女" },
+            { title: "Men", value: "men" },
+            { title: "Women", value: "women" },
           ],
         },
         {
-          title: "状态",
+          title: "Status",
           value: undefined,
           key: "status",
           options: [
-            { title: "禁用", value: "0" },
-            { title: "启用", value: "1" },
-            { title: "已删", value: "-1" },
+            { title: "Disable", value: "0" },
+            { title: "Enable", value: "1" },
+            { title: "Deleted", value: "-1" },
           ],
         },
       ],

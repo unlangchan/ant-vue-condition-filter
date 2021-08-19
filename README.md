@@ -8,6 +8,11 @@ For use examples, see [demo][url1]
 
 For development examples, see [Development.md][url2]
 
+# Demo
+![Unlimited](demo/images/screenshot1.jpeg)
+
+![Condition filter](demo/images/screenshot2.jpeg)
+
 ## License
 [MIT license][license-url]
 

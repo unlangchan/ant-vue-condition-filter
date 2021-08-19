@@ -109,6 +109,10 @@ export default {
         return [];
       },
     },
+    placeholder: {
+      type: String,
+      default: "不限",
+    },
   },
   data() {
     return {
@@ -116,7 +120,6 @@ export default {
       disabled: false,
       toggleOpen: false,
       hasValue: false,
-      placeholder: "不限",
       text: "",
       className: {
         ["ant-select-focused"]: false,
